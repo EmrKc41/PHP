@@ -1,0 +1,12 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
