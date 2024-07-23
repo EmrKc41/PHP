@@ -1,0 +1,78 @@
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: none;
+}
+
+.card-title, .card-text {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #ff0000;
+    border: none;
+}
+
+.modal-content {
+    background-color: #1c1c1c;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%);
+}
+
+.carousel-control-prev-icon:after {
+    transform: rotate(135deg);
+}
+
+.carousel-control-next-icon:after {
+    transform: rotate(-45deg);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.carousel-control-prev {
+    left: -60px; /* Konumunu daha belirgin yapmak için sol tarafa dışarı taşındı */
+}
+
+.carousel-control-next {
+    right: -60px; /* Konumunu daha belirgin yapmak için sağ tarafa dışarı taşındı */
+}
+
+.carousel-item .card {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
